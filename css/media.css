@@ -1,0 +1,20 @@
+
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+  /** --------------Section-3--------------- */
+
+  .big-container {
+display: flex;
+    gap: 11px;
+    justify-content: center;
+  }
+  .container-girl {
+      width: 393px;
+      height: 582px;
+  }
+}

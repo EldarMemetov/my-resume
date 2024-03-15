@@ -1,0 +1,333 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
+    color: #fff;
+}
+
+
+.container {
+    max-width: 428px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.header-svg{
+    stroke: rgba(46, 47, 66, 1);
+        fill: rgba(46, 47, 66, 1);
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.header-item{
+    padding-top: 24px;
+        padding-bottom: 24px;
+        flex-grow: 1;
+        justify-content: space-between;
+        border-bottom: 1px solid #e7e9fc;
+        height: 72px;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.open-menu{
+    margin-left: auto;
+        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        border: 0;
+        background-color: #fff;
+        cursor: pointer;
+}
+.section-motiv-text{
+    padding-bottom: 60px;
+}
+
+
+
+    .section-motiv-text {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/people-office-tab.jpg);
+            background-color: var(--title-color);
+            padding: 112px 0;
+            height: 436px;
+        }
+    
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .section-motiv-text {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)),
+                    url(../images/dark-bg-2-tab.jpg);
+                        background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                            background-color: var(--title-color);
+                            padding: 112px 0;
+                            height: 428px;
+                            margin-left: auto;
+                            margin-right: auto;
+            }
+        }
+
+        .skills{
+            padding-top: 60px;
+        }
+
+        .main-title{
+            font-size: 36px;
+                font-weight: 700;
+                line-height: 1.07;
+                color: #ffffff;
+                text-align: center;
+                letter-spacing: 0.72px;
+                max-width: 320px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 72px;
+        }
+
+        
+                .text-full {
+                    font-family: "Raleway", sans-serif;
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 18px;
+                        line-height: 1.17;
+                        letter-spacing: 0.03em;
+                        text-transform: uppercase;
+                        color: blue;
+                        align-items: center;
+                        margin-right: 76px;
+                }
+        
+                .text-stack {
+                    color: black;
+                }
+
+                                .text-skills {
+                                    font-family: "Raleway", sans-serif;
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 36px;
+                                        line-height: 1.2;
+                                        color: black;
+                                        letter-spacing: 0.02em;
+                                        margin-bottom: 8px;
+                                        text-align: center
+                                }
+                
+                                .list-skills {
+                                    display: flex;
+                                    flex-direction: column;
+                                        align-items: center;
+                                        margin-left: auto;
+                                        margin-right: auto;
+                                }
+                
+                
+                                .skills-parag {
+                                    font-family: "Roboto";
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 20px;
+                                        line-height: 1.2;
+                                        color: black;
+                                        letter-spacing: 0.02em;
+                                        margin-bottom: 8px;
+                                        text-align: center
+                                }
+
+/** --------------section-4--------------- */
+.section-girl {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #302c42;
+}
+
+.text-build {
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.text-with {
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 26px;
+}
+
+.container-girl {
+    border-radius: 40px;
+    background: radial-gradient(50% 50% at 50% 50%, #433d60 0%, #211e2e 100%);
+    min-width: 320px;
+    max-height: 600px;
+    padding: 27px 37px 36px 33px;
+    margin-bottom: 20px;
+}
+
+.text-simulation {
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+.text-vitae {
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.next-left {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-right {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-now {
+    border-radius: 40px;
+    background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+    color: #f2f2f5;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 15px 50px;
+    border: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.girl-icon-left {
+    fill: #fbffff;
+    stroke: #fbffff;
+}
+
+.girl-img-conta {
+width: 218px;
+    height: 217px;
+    border-radius: 0px;
+    position: relative;
+    top: 0px;
+    left: 68px;
+    margin-bottom: 10px;
+}
+
+.container-item-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 39px;
+}
+
+.container-button-left {
+    width: 62px;
+    height: 62px;
+    border-radius: 320px;
+    border: 14px solid rgba(14, 14, 14, 0.32);
+    position: relative;
+    bottom: 253px;
+    right: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container-button-right {
+    border: 14px solid rgba(14, 14, 14, 0.32);
+    width: 62px;
+    height: 62px;
+    border-radius: 320px;
+    position: relative;
+    bottom: 313px;
+    left: 312px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container-tel-es {
+    display: block;
+}
+
+
+
+.big-container{
+display: flex;
+gap: 10px;
+align-items: flex-end;
+}
+
