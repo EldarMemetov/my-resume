@@ -1,3 +1,59 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+    .big-container {
+      display: flex;
+      gap: 11px;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: flex-end
+    }
+  
+    .container-girl {
+      width: 393px;
+      height: 582px;
+    }
+  
+    .text-build {
+      text-align: center;
+      align-items: center;
+  
+    }
+        .motiv-container {
+          display: flex;
+          align-content: stretch;
+          justify-content: space-around;
+          flex-direction: row;
+          align-items: center;
+        }
+        .main-title {
+          max-width: 401px;
+}
+.motivational-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  letter-spacing: 0.32px;
+  text-align: center;
+  margin-left: 10px;
+}
+.list-skills {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+}
+
+
 
 
 @media screen and (min-width: 1440px) {
@@ -6,15 +62,5 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-  /** --------------Section-3--------------- */
 
-  .big-container {
-display: flex;
-    gap: 11px;
-    justify-content: center;
-  }
-  .container-girl {
-      width: 393px;
-      height: 582px;
-  }
 }

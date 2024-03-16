@@ -133,15 +133,13 @@ ul {
                 }
 
                                 .text-skills {
-                                    font-family: "Raleway", sans-serif;
-                                        font-style: normal;
-                                        font-weight: 500;
-                                        font-size: 36px;
-                                        line-height: 1.2;
-                                        color: #ffffff;
-                                        letter-spacing: 0.02em;
-                                        margin-bottom: 8px;
-                                        text-align: center
+color: #fff;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
                                 }
                 
                                 .list-skills {
@@ -382,3 +380,66 @@ width: 218px;
 .main-foto{
     margin-bottom: 10px;
 }
+
+
+
+
+
+.text-skills {
+    
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.list-skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+.item-skills {
+   
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item-skills:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.skills-parag {
+    
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+
+.item-skills {
+    background: linear-gradient(45deg, #302c42, #4a90e2);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.5s ease;
+}
+
+.item-skills:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(45deg, #4a90e2, #302c42);
+}
+
+.text-skills {
+    background: linear-gradient(45deg, #302c42, #4a90e2);
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.5s ease;
+}
+
