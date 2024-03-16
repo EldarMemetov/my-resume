@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #ffffff;
+    background: #302c42;
     color: #fff;
 }
 
@@ -44,14 +44,12 @@ ul {
     padding-left: 0;
 }
 
-.header-svg{
-    stroke: rgba(46, 47, 66, 1);
-        fill: rgba(46, 47, 66, 1);
-}
+
 
 .header-container{
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 .header-item{
     padding-top: 24px;
@@ -61,50 +59,45 @@ ul {
         border-bottom: 1px solid #e7e9fc;
         height: 72px;
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+        background: #302c42;
 }
 
-.open-menu{
-    margin-left: auto;
-        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        border: 0;
-        background-color: #fff;
+.lang-button{
+    border-radius: 40px;
+        background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+        color: #343045;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 5px 20px;
+        border: none;
         cursor: pointer;
+        margin-left: auto;
 }
 .section-motiv-text{
     padding-bottom: 60px;
 }
 
-
-
-    .section-motiv-text {
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                    rgba(46, 47, 66, 0.7)),
-                url(../images/people-office-tab.jpg);
-            background-color: var(--title-color);
-            padding: 112px 0;
-            height: 436px;
-        }
-    
-        @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
             .section-motiv-text {
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                         rgba(46, 47, 66, 0.7)),
                     url(../images/dark-bg-2-tab.jpg);
-                        background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: cover;
-                            background-color: var(--title-color);
-                            padding: 112px 0;
-                            height: 428px;
-                            margin-left: auto;
-                            margin-right: auto;
+    background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: var(--title-color);
+        padding: 14px 0;
+        height: 459px;
+        margin-left: auto;
+        margin-right: auto;
             }
-        }
+        
 
         .skills{
             padding-top: 60px;
+            padding-bottom: 60px;
+            background: #302c42;
         }
 
         .main-title{
@@ -117,7 +110,8 @@ ul {
                 max-width: 320px;
                 margin-left: auto;
                 margin-right: auto;
-                margin-bottom: 72px;
+                margin-bottom: 25px;
+                margin-top: 25px;
         }
 
         
@@ -129,13 +123,13 @@ ul {
                         line-height: 1.17;
                         letter-spacing: 0.03em;
                         text-transform: uppercase;
-                        color: blue;
+                        color: #ffffff;
                         align-items: center;
-                        margin-right: 76px;
+                        
                 }
         
                 .text-stack {
-                    color: black;
+                        color: #bedb90;
                 }
 
                                 .text-skills {
@@ -144,7 +138,7 @@ ul {
                                         font-weight: 500;
                                         font-size: 36px;
                                         line-height: 1.2;
-                                        color: black;
+                                        color: #ffffff;
                                         letter-spacing: 0.02em;
                                         margin-bottom: 8px;
                                         text-align: center
@@ -156,6 +150,8 @@ ul {
                                         align-items: center;
                                         margin-left: auto;
                                         margin-right: auto;
+                                        gap: 10px;
+                                        
                                 }
                 
                 
@@ -165,16 +161,34 @@ ul {
                                         font-weight: 500;
                                         font-size: 20px;
                                         line-height: 1.2;
-                                        color: black;
+                                        color: #ffffff;
                                         letter-spacing: 0.02em;
                                         margin-bottom: 8px;
                                         text-align: center
                                 }
 
+                            .info-skull {
+                            font-family: "Roboto", sans-serif;
+                            font-size: 16px;
+                            line-height: 1.5;
+                            color: #ffffff;
+                            letter-spacing: 0.32px;
+                            text-align: center;
+                            }
+                            .motivational-text{
+                                                        font-family: "Roboto", sans-serif;
+                                                            font-size: 16px;
+                                                            line-height: 1.5;
+                                                            color: #ffffff;
+                                                            letter-spacing: 0.32px;
+                                                            text-align: center;
+                            }
+
+
 /** --------------section-4--------------- */
 .section-girl {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     background: #302c42;
 }
 
@@ -290,8 +304,12 @@ width: 218px;
     align-content: center;
     gap: 39px;
 }
-
-.container-button-left {
+.big-container {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+/* .container-button-left {
     width: 62px;
     height: 62px;
     border-radius: 320px;
@@ -317,17 +335,50 @@ width: 218px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+} */
+
+
+
+
+.footer-contact{
+    background: #302c42;
 }
 
-.container-tel-es {
-    display: block;
+
+
+.contact-list {
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+            padding-bottom: 20px;
 }
 
 
-
-.big-container{
-display: flex;
-gap: 10px;
-align-items: flex-end;
+.email-contact {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #ffffff;
+    letter-spacing: 0.32px;
+    text-align: center;
 }
 
+.tel-contact {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #ffffff;
+    letter-spacing: 0.32px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.motiv-container{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.main-foto{
+    margin-bottom: 10px;
+}
