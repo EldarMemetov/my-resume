@@ -43,14 +43,15 @@
   margin-left: 10px;
 }
 .list-skills {
-  display: flex;
-  align-items: center;
+display: flex;
   margin-left: auto;
   margin-right: auto;
   gap: 10px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
+  flex-direction: row;
 }
+
 }
 
 
