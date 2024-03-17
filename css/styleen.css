@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    background: #302c42;
+    background: linear-gradient(45deg, #2e2f67, #0d0d21);
     color: #fff;
 }
 
@@ -97,7 +97,6 @@ ul {
         .skills{
             padding-top: 60px;
             padding-bottom: 60px;
-            background: #302c42;
         }
 
         .main-title{
@@ -107,7 +106,6 @@ ul {
                 color: #ffffff;
                 text-align: center;
                 letter-spacing: 0.72px;
-                max-width: 320px;
                 margin-left: auto;
                 margin-right: auto;
                 margin-bottom: 25px;
@@ -187,7 +185,7 @@ color: #fff;
 .section-girl {
     padding-top: 60px;
     padding-bottom: 20px;
-    background: #302c42;
+
 }
 
 .text-build {
@@ -236,37 +234,11 @@ color: #fff;
     line-height: normal;
 }
 
-.next-left {
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
-    border: none;
-    cursor: pointer;
-    outline: none;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.next-right {
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
-    border: none;
-    cursor: pointer;
-    outline: none;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .button-now {
     border-radius: 40px;
-    background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+    background: linear-gradient(45deg, #55a7b5, #000000);
     color: #f2f2f5;
     font-size: 14px;
     font-style: normal;
@@ -278,12 +250,10 @@ color: #fff;
     display: flex;
     justify-content: center;
     cursor: pointer;
+        margin-bottom: 10px;
 }
 
-.girl-icon-left {
-    fill: #fbffff;
-    stroke: #fbffff;
-}
+
 
 .girl-img-conta {
 width: 218px;
@@ -296,52 +266,16 @@ width: 218px;
 }
 
 .container-item-button {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    gap: 39px;
+display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
 }
 .big-container {
     display: flex;
     gap: 10px;
     flex-direction: column;
 }
-/* .container-button-left {
-    width: 62px;
-    height: 62px;
-    border-radius: 320px;
-    border: 14px solid rgba(14, 14, 14, 0.32);
-    position: relative;
-    bottom: 253px;
-    right: 43px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-.container-button-right {
-    border: 14px solid rgba(14, 14, 14, 0.32);
-    width: 62px;
-    height: 62px;
-    border-radius: 320px;
-    position: relative;
-    bottom: 313px;
-    left: 312px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-} */
-
-
-
-
-.footer-contact{
-    background: #302c42;
-}
-
 
 
 .contact-list {
@@ -444,7 +378,8 @@ width: 218px;
 }
 
 .item-skills,
-.text-skills {
+.text-skills, .container-girl {
+    
     background: -webkit-linear-gradient(45deg, #302c42, #4a90e2);
     background: -moz-linear-gradient(45deg, #302c42, #4a90e2);
     background: -o-linear-gradient(45deg, #302c42, #4a90e2);
@@ -454,9 +389,16 @@ width: 218px;
 
 .item-skills,
 .item-skills:hover,
-.text-skills {
+.text-skills, .container-girl {
     -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     -o-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+
+.img-port{
+    box-shadow: 0 4px 6px rgb(0 0 0 / 74%);
+    filter: brightness(0.8);
+}
+
