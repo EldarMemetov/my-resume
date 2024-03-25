@@ -446,3 +446,25 @@ display: flex;
         margin-top: 10px;
         margin-bottom: 10px;
 }
+
+
+
+
+.java-script-cont {
+    border-radius: 40px;
+background: radial-gradient(50% 50% at 50% 50%, #3f52b1 0%, #211e2e 100%);
+    min-width: 320px;
+    max-height: 600px;
+    padding: 27px 37px 36px 33px;
+    margin-bottom: 20px;
+
+}
+
+.container-item-script {
+display: flex;
+    gap: 10px;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
