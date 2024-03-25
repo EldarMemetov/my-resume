@@ -402,3 +402,47 @@ display: flex;
     filter: brightness(0.8);
 }
 
+.container-link{
+    box-shadow: 0 4px 6px rgb(0 0 0 / 74%);
+}
+
+.button-now-script{
+    border-radius: 40px;
+        color: #f2f2f5;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 10px;
+        border: none;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+            background-image: linear-gradient(45deg, #cbc7da, #1dd559);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        
+}
+
+.javascript-port{
+    margin-top: 5px;
+        color: #fff;
+    color: #fff;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+            text-align: center;
+            
+}
+.text-script{
+    color: #fff;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
