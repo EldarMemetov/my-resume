@@ -445,7 +445,8 @@ display: flex;
         font-weight: 700;
         line-height: normal;
         margin-top: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        text-align: center;
 }
 
 
@@ -469,3 +470,11 @@ display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
+
+.color-link{
+    color: green;
+}
+
+
+
