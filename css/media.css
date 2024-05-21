@@ -12,7 +12,7 @@
       flex-wrap: wrap;
       align-items: flex-end
     }
-  
+
     .container-girl {
       width: 393px;
       height: 582px;
@@ -74,4 +74,5 @@ display: flex;
 .list-skills {
   justify-content: space-between;
 }
+
 }
