@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
     <link rel="stylesheet" href="./css/styleen.css" />
     <link rel="stylesheet" href="./css/media.css" />
     <title>My resume</title>
@@ -70,7 +73,7 @@
                         <a href="#javascript" class="skills-parag link" >JavaScript</a>
                     </li>
                     <li class="item-skills">
-                        <a href="" class="skills-parag link">GIT</a>
+                        <a href="https://github.com/EldarMemetov" class="skills-parag link">GIT</a>
                     </li>
                     <li class="item-skills">
                         <h3 class="skills-parag">React</h3>
@@ -93,9 +96,9 @@
 <h2 class="text-build" id="htmlAndCss">Portfolio</h2>
 
 <!-- 1 -->
-<div class="big-container ">
-                
-                <div class="container-tel-es " >
+<div class="big-container swiper">
+                <div class="swiper-wrapper">
+                <div class="container-tel-es swiper-slide">
                     
                     
                     <div class="container-girl">
@@ -119,7 +122,7 @@
 
 
 
-                <div class="container-tel-es ">
+                <div class="container-tel-es swiper-slide">
             
                     <div class="container-girl ">
                         <div class="girl-img-conta">
@@ -142,7 +145,7 @@
 
 
 
-                    <div class="container-tel-es ">
+                    <div class="container-tel-es swiper-slide">
                 
                         <div class="container-girl ">
                             <div class="girl-img-conta">
@@ -167,7 +170,7 @@
 
 
 
-                        <div class="container-tel-es ">
+                        <div class="container-tel-es swiper-slide">
                     
                             <div class="container-girl ">
                                 <div class="girl-img-conta">
@@ -190,7 +193,7 @@
 
 
 
-                            <div class="container-tel-es ">
+                            <div class="container-tel-es swiper-slide">
                         
                                 <div class="container-girl ">
                                     <div class="girl-img-conta">
@@ -214,7 +217,7 @@
 
 
 
-                                <div class="container-tel-es ">
+                                <div class="container-tel-es swiper-slide">
                             
                                     <div class="container-girl">
                                         <div class="girl-img-conta">
@@ -231,6 +234,12 @@
                                     </div>
                                     </div>
 
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            
+
+            <div class="swiper-scrollbar"></div>
             </div>
             </div>
             
@@ -297,8 +306,9 @@
         </address>
 </div>
 </footer>
-    <script type="module" src="./js/my.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script  src="./js/my.js"></script>
+    
 </body>
 
 </html>

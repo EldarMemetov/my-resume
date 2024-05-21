@@ -172,12 +172,12 @@ color: #fff;
                             text-align: center;
                             }
                             .motivational-text{
-                                                        font-family: "Roboto", sans-serif;
-                                                            font-size: 16px;
-                                                            line-height: 1.5;
-                                                            color: #ffffff;
-                                                            letter-spacing: 0.32px;
-                                                            text-align: center;
+                            font-family: "Roboto", sans-serif;
+                            font-size: 16px;
+                            line-height: 1.5;
+                            color: #ffffff;
+                            letter-spacing: 0.32px;
+                            text-align: center;
                             }
 
 
@@ -191,7 +191,7 @@ color: #fff;
 .text-build {
     color: #fff;
     text-align: center;
-    font-size: 26px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -330,10 +330,10 @@ display: flex;
 .list-skills {
     list-style-type: none;
     padding: 0;
+    
 }
 
 .item-skills {
-   
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
