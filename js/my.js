@@ -72,3 +72,18 @@
 //     },
 //   });
 // });
+
+ScrollReveal().reveal(".main-title", {
+  duration: 1000,
+  origin: "bottom",
+  distance: "50px",
+});
+ScrollReveal().reveal(".motiv-container", {
+  duration: 1000,
+  origin: "left",
+  distance: "50px",
+  delay: 500,
+});
+ScrollReveal().reveal(".list-skills li", { interval: 200 });
+ScrollReveal().reveal(".container-tel-es", { interval: 200 });
+ScrollReveal().reveal(".container-item-script", { interval: 200 });
